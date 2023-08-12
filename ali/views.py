@@ -4,4 +4,4 @@ from django.http import HttpResponse
 
 
 def ali(request):
-    return HttpResponse('Hello ali')
+    return render(request, 'ali/index.html')
